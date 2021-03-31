@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace FibonacciNumbersTask
 {
-    class Validator
+    class RangeValidator
     {
         public string StartRange { get; private set; }
 
         public string FinishRange { get; private set; }
 
-        public Validator(string startRange, string finishRange)
+        public RangeValidator(string startRange, string finishRange)
         {
             StartRange = startRange;
             FinishRange = finishRange;
